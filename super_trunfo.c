@@ -6,11 +6,11 @@ int main(){
     float PIB;
     int Número;
 
-    printf("Didite sua População: \n");
+    printf("Digite sua População: \n");
     scanf("%d", &População);
 
     printf("Digite sua Área: \n");
-    ("%f", &Área);
+    scanf("%f", &Área);
 
     printf("Digite seu PIB: \n");
     scanf("%f", &PIB);
@@ -18,12 +18,15 @@ int main(){
     printf("Digite seu Número: \n");
     scanf("%d", &Número);
 
-    printf("População: %d\nÁrea:%.2f km²\n", População, Área);
-    printf("PIB:%.2f bilhos de reais\nNúmeros de Pontos Turistico: %d\n", PIB, Número);
+    printf("População: %d\nÁrea:%2.f km²\n", População, Área);
+    printf("PIB: %.2f bilhões de reais\nNúmero de Pontos Turistico: d\n", PIB, Número);
 
 
     return 0;
+    
 
 
 
 }
+
+
