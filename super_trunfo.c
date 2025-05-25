@@ -5,7 +5,8 @@ int main(){
     float Área;
     float PIB;
     int Número;
-   
+    printf("Novo Comit\n");
+    
     printf("Digite sua População: \n");
     scanf("%d", &População);
 
