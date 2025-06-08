@@ -8,7 +8,7 @@ int main(){
     float População / Área;
     float PIB / População;
     float media;
-    
+    printf("Novo Comit\n");
     printf("Novo Comit\n");
     
     printf("Digite sua População: \n");
